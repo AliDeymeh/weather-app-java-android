@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.wap.Data"
+   
+           >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+
+        android:background="@drawable/backgroundimage">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="22dp" >
+
+            <EditText
+                android:id="@+id/EditSearch"
+                android:layout_width="175dp"
+                android:layout_height="55dp"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="17dp"
+                android:ems="10"
+                android:hint="نام شهر را وارد کنید"
+                android:textColorHint="#f56" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/BtnSearch"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mybtn"
+                android:text="جستجو"
+                android:textColor="#fff"
+                android:textColorLink="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/CityText"
+            android:layout_width="122dp"
+            android:layout_height="39dp"
+            android:layout_gravity="right|center"
+            android:layout_marginBottom="90dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/DamaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DamaTextMax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/DamaTextMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="350dp" >
+
+            <TextView
+                android:id="@+id/rtbtText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="50dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="430dp" >
+
+            <TextView
+                android:id="@+id/pressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="120dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/BadText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="35dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageMain"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/ic_launcher" />
+
+    </FrameLayout>
+
+</RelativeLayout>
